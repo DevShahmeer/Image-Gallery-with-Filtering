@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './App.css'
+import ImageGallery from './components/ImageGallery'
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
           <h1>Image Gallery with Unsplash API</h1>
         </header>
         <main>
+          <ImageGallery/>
         </main>
       </div>
     </>
