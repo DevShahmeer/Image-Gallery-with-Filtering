@@ -1,0 +1,60 @@
+/* Reset some default styles */
+body, h1, h2, h3, p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Create a container for the whole app */
+.App {
+  text-align: center;
+}
+
+/* Style the header */
+.App-header {
+  background-color: #333;
+  padding: 20px;
+  color: white;
+}
+
+/* Style the main content */
+main {
+  padding: 20px;
+}
+
+/* Style the filter buttons */
+.filter-buttons {
+  margin-bottom: 20px;
+}
+
+.filter-buttons button {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.filter-buttons button:hover {
+  background-color: #0056b3;
+}
+
+/* Style the image grid */
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 20px;
+}
+
+.image-grid img {
+  max-width: 100%;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.image-grid img:hover {
+  transform: scale(1.05);
+}
