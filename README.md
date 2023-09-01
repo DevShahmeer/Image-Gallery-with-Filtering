@@ -1,6 +1,8 @@
 # Image Gallery with Unsplash API
 
 This is a simple React app that fetches and displays images from the Unsplash API based on categories.
+![Untitled design (4)](https://github.com/DevShahmeer/Image-Gallery-with-Filtering/assets/108333592/d3b4f138-e9bd-4878-bbd2-5b6feff0dfae)
+
 
 ## Getting Started
 
@@ -8,7 +10,7 @@ To run this project locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/image-gallery-unsplash.git
+   git clone https://github.com/DevShahmeer/Image-Gallery-with-Filtering.git
    ```
 
 2. Navigate to the project directory:
@@ -62,9 +64,3 @@ image-gallery-unsplash/
 
 Contributions are welcome! If you find any issues or want to add new features, feel free to create a pull request.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-```
-
-Make sure to follow the provided instructions to replace the `'YOUR_UNSPLASH_ACCESS_KEY'` placeholder with your actual Unsplash API access key.
