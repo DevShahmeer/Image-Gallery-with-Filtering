@@ -8,7 +8,7 @@ const ImageGallery = () => {
 
   useEffect(() => {
     let apiUrl = 'https://api.unsplash.com/photos/';
-    const accessKey = 'uOR7-Vy1_edxDc3bKjyt1OofnqUwJnPPsnIYzk4xW6U'; // Replace with your actual Unsplash access key
+    const accessKey = 'YOUR_UNSPLASH_ACCESS_KEY'; // Replace with your actual Unsplash access key
 
     if (selectedCategory) {
       apiUrl = `https://api.unsplash.com/search/photos/`;
